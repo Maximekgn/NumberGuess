@@ -12,6 +12,6 @@ button.onclick = function() {
         phrase.textContent = "Votre nombre est trop bas.";
     }
     else if (userNum == random ) {
-        phrase.textContent = "BINGO, vous avez trouvé!";
+        phrase.textContent = `BINGO, vous avez trouvé! le nombre est ${random}`;
     }
 }
