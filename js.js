@@ -1,4 +1,4 @@
-const random = Math.floor(Math.random() * 10) + 1;
+const random = Math.floor(Math.random() * 100) + 1;
 const num = document.getElementById("number");
 const phrase = document.getElementById("phrase");
 const button = document.getElementById("button");
