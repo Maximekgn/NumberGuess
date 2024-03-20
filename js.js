@@ -6,12 +6,12 @@ const button = document.getElementById("button");
 button.onclick = function() {
     let userNum = Number(num.value);
     if(userNum > random){
-        phrase.textContent = "Votre nombre est trop élevé.";
+        phrase.textContent = "Your number is too high";
     }
     else if (userNum < random) {
-        phrase.textContent = "Votre nombre est trop bas.";
+        phrase.textContent = "Your Number is too low ";
     }
     else if (userNum == random ) {
-        phrase.textContent = `BINGO, vous avez trouvé! le nombre est ${random}`;
+        phrase.textContent = `BINGO, you win! the number was ${random}`;
     }
 }
