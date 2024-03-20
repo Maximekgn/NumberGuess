@@ -1,0 +1,13 @@
+#container 
+{
+    border: solid;
+    border-radius: 2% 20%;
+    text-align: center;
+    box-shadow: 5px 5px 30px black;
+}
+
+body 
+{
+    margin: 25% 25%;
+    background-color: rgb(178, 208, 235);
+}
